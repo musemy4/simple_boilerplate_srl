@@ -5,4 +5,7 @@ const text = hello('LETS CODING');
 const num = add(1,2);
 
 
-document.getElementById('root').innerHTML = text + num;
+const rootEle = document.getElementById('root');
+if(rootEle) {
+    rootEle.innerHTML= text + num;
+}
