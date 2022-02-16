@@ -1,12 +1,7 @@
-const add = (n1: number, n2: number) => {
-    return n1 + n2;
-}
-
-function hello(name: string) {
-    return name;
+const resultIs = (input1: number, input2: number, operator: '+' | '-' | '/' | '*' ) => {
+    console.log(input1, input2, operator);
 }
 
 export {
-    add,
-    hello
+    resultIs
 }
